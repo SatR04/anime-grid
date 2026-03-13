@@ -11,10 +11,10 @@ const animeList = [
     tag: "LEGENDARY", 
     accent: "#c0392b", 
     quote: "I'm going to be King of the Pirates!", 
-    synopsis: "A rubber-limbed boy sets sail on the Grand Line hunting the world's greatest treasure." 
+    synopsis: "A rubber-limbed boy sets sail on the Grand Line hunting the world's greatest treasure — and assembles the most unforgettable crew in anime history." 
   },
   { 
-    malId: 42249, // FIXED ID: This will show the actual Tokyo Revengers poster
+    malId: 42249, 
     title: "Tokyo Revengers", 
     japanese: "東京リベンジャーズ", 
     genre: "Action · Time Travel", 
@@ -25,7 +25,7 @@ const animeList = [
     tag: "INTENSE", 
     accent: "#1a5a9a", 
     quote: "I'll keep going back until I protect everyone.", 
-    synopsis: "A man leaps into his past to save his friends from a ruthless gang."
+    synopsis: "A dead-end man leaps into his teenage past with one mission — rewrite fate and save everyone before a ruthless gang destroys it all."
   },
   { 
     malId: 20, 
@@ -38,8 +38,8 @@ const animeList = [
     rating: "9.5", 
     tag: "GENERATION", 
     accent: "#d4820a", 
-    quote: "I never go back on my word — that's my ninja way.", 
-    synopsis: "An orphan boy fights to become the leader of his village." 
+    quote: "I never go back on my word — that's my nindo, my ninja way.", 
+    synopsis: "An orphan boy marked as a monster fights his way into the hearts of an entire village — the most stubborn refusal to give up ever animated." 
   },
   { 
     malId: 32281, 
@@ -53,7 +53,7 @@ const animeList = [
     tag: "MASTERPIECE", 
     accent: "#61318d", 
     quote: "I'm always searching for something, a person, a place...", 
-    synopsis: "Two strangers find themselves linked in a way that defies time and space." 
+    synopsis: "Two strangers find themselves linked in a way that defies time and space — a cinematic miracle that redefined the genre." 
   },
 ];
 
