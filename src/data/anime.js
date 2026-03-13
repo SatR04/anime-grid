@@ -14,7 +14,7 @@ const animeList = [
     synopsis: "A rubber-limbed boy sets sail on the Grand Line hunting the world's greatest treasure." 
   },
   { 
-    malId: 48533, // CORRECTED ID for Tokyo Revengers
+    malId: 42249, // FIXED ID: This will show the actual Tokyo Revengers poster
     title: "Tokyo Revengers", 
     japanese: "東京リベンジャーズ", 
     genre: "Action · Time Travel", 
@@ -25,7 +25,7 @@ const animeList = [
     tag: "INTENSE", 
     accent: "#1a5a9a", 
     quote: "I'll keep going back until I protect everyone.", 
-    synopsis: "A man leaps into his past to save his friends from a ruthless gang." 
+    synopsis: "A man leaps into his past to save his friends from a ruthless gang."
   },
   { 
     malId: 20, 
