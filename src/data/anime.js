@@ -17,7 +17,7 @@ const animeList = [
     malId: 42249, 
     title: "Tokyo Revengers", 
     japanese: "東京リベンジャーズ", 
-    genre: "Action · Time Travel", 
+    genre: "Action · Time Travel, Advanture", 
     studio: "Liden Films", 
     year: "2021", 
     episodes: "63 Eps", 
