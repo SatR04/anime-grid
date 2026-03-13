@@ -12,16 +12,20 @@ function Card({ anime, index }) {
   const inView  = useInView(wrapRef);
 
   useEffect(() => {
+    // If we have a direct link, use it immediately
+    if (anime.posterOverride) {
+      setImgSrc(anime.posterOverride);
+      return;
+    }
+
     fetch(`https://api.jikan.moe/v4/anime/${anime.malId}`)
       .then((r) => r.json())
       .then((d) => {
-        const url =
-          d?.data?.images?.jpg?.large_image_url ||
-          d?.data?.images?.jpg?.image_url;
+        const url = d?.data?.images?.jpg?.large_image_url || d?.data?.images?.jpg?.image_url;
         if (url) setImgSrc(url);
       })
       .catch(() => {});
-  }, [anime.malId]);
+  }, [anime.malId, anime.posterOverride]);
 
   const onMouseMove = (e) => {
     const r = cardRef.current.getBoundingClientRect();
